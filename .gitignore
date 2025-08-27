@@ -113,3 +113,4 @@ geckodriver*
 # Build outputs
 .cache/
 public/build/
+.vercel

@@ -5,5 +5,13 @@
   "installCommand": "cd V2-Web && npm ci",
   "framework": "nextjs",
   "outputDirectory": "V2-Web/.next",
-  "rootDirectory": "V2-Web"
+  "rootDirectory": "V2-Web",
+  "functions": {
+    "V2-Web/src/app/api/scrape/route.ts": {
+      "maxDuration": 300
+    }
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
